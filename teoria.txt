@@ -81,3 +81,28 @@ Relativas
 
 Equivalencias
   100% = 1em = 16px 
+
+Patrones
+  Son buenas practicas de como hacer CSS basados en DRY (Dont Repeat Yourself), utiles cuando trabajamos en equipo 
+  Codigo CSS reusable, modula y optimo.
+
+  FRAMEWORKS
+    Ventajas
+      Facil de probar
+      Flujo de trabajo definido 
+      Sintaxis similar
+      Fuentes de aprendizaje
+      Ideal para trabajos que eran para ayer
+
+    Desventajas
+      Convenciones ajenas
+      Globales
+      Impersonalizables
+      Incompatibilidades
+      Sonrecarga del DOM
+      Generan codependencia
+      Mala idea para aprender a maquetar
+
+BEM
+  Bloque elemento modificador
+  

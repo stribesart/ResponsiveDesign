@@ -106,3 +106,44 @@ Patrones
 BEM
   Bloque elemento modificador
   
+
+
+  ******************************************
+  agregar el framework css con el que se va a hacer la modal
+  se agrega el cdn y el css
+  para el boton de la modal no se debe olvidar el toggle y el target dentro del boton
+  para los scripts hay que colocarlos inmediatamente despues de los cdn de bootstrap  
+  Nunca se debe de pasar una cadena para poder tratar datos en un componente
+  Siempre se debe de crear un nodo para poder pasar ese elemento en JS y html
+  En el caso de la modal se pasara el titulo y el contenido, pero como no se puede
+  recibir un texto plano se debe de crar un parrafo para 3el titulo y para el contenido 
+  muy probablemente se va a mandar un objeto, llamese div, llamese fragment, llamese
+  nodo HTML 
+  para toda la creacion de la modal se necesita importar los siguientes archivos que se 
+  encuentran en la siguiente ruta
+
+  Cada vez que se crea un evento se tiene que eliminar el evento
+  Nunca se va a asignar un evento al window ni al document
+  Siempre se tiene que asignar evento por elemento.
+
+  Ejemplo si se tiene un div con 2 botones ahi si se ingresa un solo evento por elemento.
+  
+  Objetivo de hoy es como vamos a controlar una ventana modal, crearemos la modal
+  especificaremos como es que se tiene que usar.
+
+  Index.html se convierte en una spa que tiene su modal, menu y contenido
+  
+  Cuando un objeto es en json va en comillas dobles
+  cuando es objeto en en javascript las comillas son simples
+
+  las clases se pueden enviar varias clases
+
+  reducers* investigar
+  Cada vez que se mande un boton se tiene que enviar una funcion sino para que sirve
+  Se tendra que especificar si es necesario u opcional en cada uno de los parametros para cada
+  funcion que se va a estar definiendo.
+
+  **Super importante: Que se asignen los eventos a cada elemento, un boton, o un input, etc**
+
+  Documentar los atributos de bootstrap, cada elemento.
+  

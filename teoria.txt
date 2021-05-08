@@ -1,0 +1,83 @@
+CSS
+Cascade Style Sheet
+LEnguaje de reglas basado en una sintaxis -> atributo: valor
+
+Etiquetas:
+p{...}
+
+Id's
+#menu {...}
+
+Clases
+.item{...}
+
+Universal
+* {...}
+
+Descendiente(Espacio en blanco)
+.menu a {...}
+
+Selector de hijos
+.menu > li{...}
+
+Selector de hermanos
+section ~ article {...}
+
+Adyacentes
+h1 + h2 {...}
+
+de atributos
+input[type="text"] {...}
+
+Pseudo-Selectores
+  Nos ayudan a aplicar estilos especiales a nuestros elementos
+  -Clases
+    Estatus de enlace
+    :link :visited
+
+    Interacciones del Usuario
+    :active :hover :focus
+
+    elementos de Formulario
+    :checked :disabled :in-range :invalid :out-of-range :required :target :valid
+
+    Posicion de elemento
+    :first-child :first-of-type :last-child :last-of-type :nth-child() :nth-of-type() :only-child :only-of-type :default
+
+    CSS3
+    :dir() :empty :first :fullscreen :indeterminate :lang() :left :not() :optional :read-only :read-write :right :root :scope
+
+  -Elementos
+    ::after { content: " " }
+    
+    ::before { content: " " }
+
+    ::first-letter
+
+    ::first-line
+
+    ::selection
+
+Unidades de medida
+Absolutas
+  px, pt, pc, cm, mm, in
+
+Relativas
+  Al contenedor
+    %porcentaje
+
+  A la tipografia
+    em basada en la anchura de la letra
+    ex basada en la altura de la letra
+    rem es el em del elemento raiz (html)
+
+  Al Viewport: es solo la zona donde to puedo ver el contenido de la pagina
+    vw anchura del Viewport
+    vh altura del Viewport
+    vmax entre vw y vh toma el que tenga mayor valor
+    vmin entre vw y vh toma el que tenga menor valor
+
+  Superimportante que se utilicen para hacer dinamico el tamano de la pagina web
+
+Equivalencias
+  100% = 1em = 16px 
